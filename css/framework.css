@@ -1,0 +1,358 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+
+/* Start Fonts and Text */
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.text-c {
+    text-align: center;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .text-c-mobile {
+        text-align: center;
+    }
+}
+
+/* End Fonts and Text */
+/* Start Background and Color  */
+.bg-white {
+    background-color: white;
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-grey {
+    background-color: var(--grey-color);
+}
+.bg-red {
+    background-color: var(--red-color);
+}
+.bg-eee {
+    background-color: #eee;
+}
+.c-black {
+    color: black;
+}
+
+.c-gray {
+    color: var(--grey-color);
+}
+
+.c-white {
+    color: white;
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+.c-green {
+    color: var(--green-color);
+}
+
+.c-orange {
+    color: var(--orange-color);
+}
+
+.c-red {
+    color: var(--red-color);
+}
+
+.box-shadow-ddd {
+    box-shadow: 0 0 5px #ddd;
+}
+
+.box-shadow-aaa {
+    box-shadow: 0 0 5px #aaa;
+}
+
+/* End Background and Color  */
+/* Start Border */
+.b-none {
+    border: none;
+}
+
+.rad-6 {
+    border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+.rad-half{
+    border-radius: 100%;
+}
+.border-eee {
+    border: 1px solid #eee;
+}
+
+.border-ccc {
+    border: 1px solid #ccc;
+}
+
+.border-b-eee {
+    border-bottom: 1px solid #eee;
+}
+
+/* End Border */
+/* Start Display + positions */
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.f-grow {
+    flex-grow: 1;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-block {
+    display: block;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+.gap-20 {
+    gap: 20px;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+}
+
+/* End Display */
+/* Start Padding + Margin */
+.p-0 {
+    padding: 0;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pl-10{
+    padding-left: 10px;
+}
+.m-0 {
+    margin: 0;
+}
+.m-15 {
+    margin: 15px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+/* End Padding + Margin */
+
+/* Start Width + height */
+.full-width {
+    width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+/* End Width + height */
+
+
+/* Start Media common  */
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .d-block-mobile {
+        display: block;
+    }
+}
+
+.btn-shap {
+    padding: 4px 10px;
+    border-radius: 6px;
+    transition: background-color .3s;
+}
+
+.btn-shap:hover {
+    background-color: var(--blue-alt-color);
+}
+
+.lab-shap{
+    padding: 4px 10px;
+    border-radius: 6px;
+    padding : 4px 10px;
+    width: fit-content;
+}
+
+/* End Media common */
