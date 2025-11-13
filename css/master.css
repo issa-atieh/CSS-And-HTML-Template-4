@@ -569,9 +569,9 @@ padding: 15px;
 
 @media (max-width: 767px) {
     .setting-page{
-    grid-template-columns: minmax(100px, 1fr);
+    grid-template-columns: minmax(250px, 1fr);
     gap: 10px;
-    margin: 0 10px;
+    margin: 10px;
 
 }
     
@@ -818,6 +818,13 @@ padding: 15px;
     }
     
 }
+@media (max-width: 768px) {
+  .profile-page,
+  .other-data {
+        margin: 10px;
+    }
+    
+}
 .info-box .box {
     flex-wrap: wrap;
     border-bottom: 1px solid #eee;
@@ -998,6 +1005,7 @@ h4{
 }
 @media (max-width: 767px) {
     .course-page {
+            grid-template-columns:minmax(250px, 1fr);
         gap: 10px;
         margin: 10px;
     }
@@ -1030,6 +1038,13 @@ h4{
 /* Start Friends Page */
 .friend-page {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+@media (max-width: 767px) {
+    .friend-page {
+    grid-template-columns: minmax(250px, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
 }
 .friend-page .friend .contact {
     left: 10px;
@@ -1140,7 +1155,7 @@ h4{
 }
 @media (max-width: 767px) {
 .plans-page {
-    grid-template-columns:  minmax(300px, 1fr);
+    grid-template-columns:  minmax(250px, 1fr);
     gap: 10px;
     margin: 10px;
 }
